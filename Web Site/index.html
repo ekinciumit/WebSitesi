@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ümit Ekinci</title>
+    <link rel="stylesheet" href="web.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>Ümit Ekinci</h1>
+            <nav>
+                <ul>
+                    <li><a href="#anasayfa">Anasayfa</a></li>
+                    <li><a href="#hakkimda">Hakkımda</a></li>
+                    <li><a href="#yetenekler">Yetenekler</a></li>
+                    <li><a href="#iletisim">İletişim</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="anasayfa">
+        <div class="section-content">
+            <h2>Merhaba, Ben Ümit. Siteme Hoşgeldiniz ☻</h2>
+            <div class="flex-container">
+                <a href="mailto:umitekinci22@gmail.com" class="contact-button custom-email-link">İletişim</a>
+                <a href="https://github.com/ekinciumit?tab=repositories" class="github-button" target="_blank">
+                    <img src="icons8-github-100.png" alt="GitHub" id="github-icon" class="custom-github-icon">
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    
+
+    <section id="hakkimda">
+        <div class="section-content">
+            <h2>Hakkımda</h2>
+            <img src="asdfg.jpg" alt="Ebrar Kadir">
+            <p>Ümit Ekinci.</p>
+            <p>Süleyman Demirel Üniversitesi Bilgisayar Mühendisliği.</p>
+            <p>22 Yaşındayım ve Android Uygulama Geliştirme ile ilgileniyorum.</p>
+        </div>
+    </section>
+
+    <section id="yetenekler">
+        <div class="section-content">
+            <h2>Yetenekler</h2>
+            <p>Programlama Dilleri:</p>
+            <div class="skill-bar">
+                <div class="skill kotlin">Kotlin %80</div>
+                <div class="skill flutter">Flutter %60</div>
+
+                <div class="skill python">Python %55</div>  
+                <div class="skill csharp">C# %60</div>            
+                
+                <div class="skill html">HTML %20</div>
+                <div class="skill css">CSS %20</div>
+                      
+            </div>
+        </div>
+    </section>
+
+    <section id="iletisim">
+        <div class="section-content">
+            <h2>İletişim</h2>
+            <form action="#">
+                <label for="adsoyad">Ad Soyad:</label>
+                <input type="text" id="adsoyad" name="adsoyad" required>
+                <label for="eposta">E-Posta:</label>
+                <input type="email" id="eposta" name="eposta" required>
+                <label for="mesaj">Mesaj:</label>
+                <textarea id="mesaj" name="mesaj" required></textarea>
+                <button type="submit">Gönder</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2023 Ümit Ekinci. Tüm Hakları Saklıdır.</p>
+        </div>
+    </footer>
+</body>
+
+</html>

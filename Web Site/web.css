@@ -1,0 +1,218 @@
+body {
+   
+    background: url(pexels-frozenmomentii-17679876.jpg);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    position: relative;
+}
+
+header {
+    background-color: #0d1b16;
+    color: #fff;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #18cfc0;
+}
+
+
+
+.section-content {
+    color: #ffffff;
+
+    padding: 200px 0;
+    margin-left: 100PX;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+
+}
+
+
+.flex-container {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+}
+
+
+.custom-email-link {
+    text-decoration: none; 
+    font-weight: bold;
+    margin-bottom: 20px; 
+}
+
+
+.custom-github-icon {
+    width: 100px; 
+    height: 100px; 
+    border: 10px solid #d0d0d0; 
+    margin-top: 20px; 
+}
+
+
+
+
+
+#hakkimda img {
+    
+    width: 400px; 
+    height: auto; 
+    border: 1px solid #333; 
+    margin-right: 30px; 
+    border-radius: 10%; 
+    box-shadow: 5px 5px 5px #000000; 
+}
+
+
+/* Genel stil */
+.skill-bar {
+    display: flex;
+    flex-direction: column;
+}
+
+.skill {
+    display: flex; 
+    align-items: center; 
+    margin-bottom: 10px;
+    text-align: left; 
+    flex: 1; 
+    margin-right: 10px; 
+}
+
+/* Çubuk stilleri */
+.skill::before {
+    content: '';
+    display: block;
+    width: 70%; 
+    height: 10px; 
+    background-color: #007bff; 
+    border-radius: 70px; 
+}
+
+/* Yetenek yüzdeleri */
+
+.kotlin::before {
+    width: 80%; 
+}
+
+.flutter::before {
+    width: 60%; 
+}
+
+.python::before {
+    width: 55%; 
+}
+
+.csharp::before {
+    width: 60%; 
+}
+
+.html::before {
+    width: 20%; 
+}
+
+.css::before {
+    width: 20%; 
+}
+
+
+
+
+.contact-button, button {
+    display: inline-block;
+    background-color: #3498db; 
+    color: #fff;
+    padding: 12px 24px;
+    border-radius: 8px;
+    transition: 0.3s;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-button {
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+.contact-button:hover, button:hover {
+    background-color: #2980b9; 
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+form label,
+form input,
+form textarea,
+form button {
+    display: block;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #3498db; 
+    font-size: 25px; 
+    line-height: 1.4; 
+}
+
+
+
+
+
+
+footer {
+    background-color: #192419; 
+    color: #fff; 
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%; 
+}
